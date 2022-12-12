@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+
+
+.Wrapper1_Sec1 {
+  background-color: hsl(10, 79%, 65%);
+  width: 370px;
+  height: 70px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: hsl(27, 66%, 92%);
+}
+
+.Texts_Header h2 {
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.Texts_Header h4 {
+  font-size: 10px;
+  color: hsl(36, 9%, 90%);
+}
+
+
+
+/* Comienza los estilos para la seccion 2  */
+.Wrapper .Wrapper1_Sec2 {
+  background-color: hsl(33, 100%, 98%);
+  width: 370px;
+  height: 350px;
+  margin-top: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 16px;
+}
+
+.Sec2_bars {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 10px 10px;
+  border-bottom: 1.5px solid hsl(28, 25%, 85%);
+}
+.ChartBarras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.ChartBarras:hover .texto_top_barra{  
+  visibility: visible;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}  
+
+.texto_top_barra {
+  visibility: hidden;
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(27, 66%, 92%);
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+.texto_bottom_barra {
+
+  margin-top: 3px;
+  font-size: 10px;
+  color: hsl(28, 10%, 53%);
+}
+
+.ancho_radio_Barra {
+  width: 34px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.alturaBarra1 {
+  height: 32px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.alturaBarra1:hover{ background-color: hsl(10, 72%, 72%) ;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  visibility: visible;
+
+} 
+
+.alturaBarra2 {
+  height: 68px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+ .alturaBarra2:hover{ background-color:  hsl(10, 72%, 72%);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s; 
+}  
+
+.alturaBarra3 {
+  height: 100px;
+  background-color:hsl(10, 79%, 65%);
+}
+
+.alturaBarra3:hover{ background-color:hsl(186, 34%, 60%) ;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+ 
+.alturaBarra4 {
+  height: 60px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+ .alturaBarra4:hover{ background-color:  hsl(10, 72%, 72%);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+} 
+
+.alturaBarra5 {
+  height: 44px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+
+
+ .alturaBarra5:hover{ background-color:  hsl(10, 72%, 72%);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+} 
+
+.alturaBarra6 {
+  height: 85px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.alturaBarra6:hover{ background-color:  hsl(10, 72%, 72%);
+  color: rgb(7, 7, 7);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+} 
+
+.alturaBarra7 {
+  height: 50px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.alturaBarra7:hover{ background-color:  hsl(10, 72%, 72%);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+} 
+
+/* Comienza los estilos para la seccion 3  */
+.Sec3_Total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Text1Total {
+  color: hsl(28, 10%, 53%);
+  font-size: 12px;
+}
+.Text2Total {
+  font-size: 27px;
+  color: hsl(25, 47%, 15%);
+  margin-top: 3px;
+}
+
+.Texts_sec3_lastmonth {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+
+.Texts_sec3_lastmonth  h5 {
+  font-size: 10px;
+  color: hsl(25, 47%, 15%);
+}
+
+.Texts_sec3_lastmonth h4 {
+  font-size: 10px;
+  color: hsl(28, 10%, 53%);
+}
