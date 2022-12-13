@@ -254,3 +254,15 @@ body {
   font-size: 10px;
   color: hsl(28, 10%, 53%);
 }
+/* 
+@media (min-width: 375px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+} */
